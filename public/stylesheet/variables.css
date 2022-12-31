@@ -1,0 +1,9 @@
+:root{
+    /* - Colores */
+	--Azul: #2C3E50;
+	--Verde: #18BC9C;
+
+/* - Tipografías (Google Fonts) */
+	--Títulos: 'Montserrat';
+	--Párrafos: 'Lato';
+}
