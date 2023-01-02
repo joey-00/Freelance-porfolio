@@ -1,0 +1,17 @@
+.main__section {
+    background-color: var(--Verde);
+}
+.main__section--star{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main__section--bar{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15%;
+    font-weight: 700;
+}
