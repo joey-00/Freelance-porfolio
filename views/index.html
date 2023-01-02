@@ -10,34 +10,42 @@
 </head>
 <body>
     <header class="header">
-        <h2>FREELANCE PORTFOLIO</h2> 
-        <button>
+        <a href=""><h2> FREELANCE PORTFOLIO </H2></a>
+        <button class="header__img">
             menu <i class="fa-solid fa-bars"></i>
         </button>
+        <nav class="header__nav">
+            <li>
+                <a href="#portfolio">portfolio</a>
+            </li>
+            <li>
+                <a href="#about">about</a>
+            </li>
+            <li>
+                <a href="#contact">contact</a>
+            </li>
+        </nav>
     </header>
     <main class="main">
-        <section class="main__section">
+        <section class="main__section--banner">
         <figure>
             <img src="/images/profile.png" alt="">
         </figure>
         <h1>FREELANCE PORTFOLIO</h1>
-        <div class="main__section--bar">
-            <i class="fa-solid fa-dash"></i>
-        </div>
-        <div class="main__section--star">
+        
+        <div class="main__section--star1">
+            <hr>
             <i class="fa-solid fa-star"></i> 
-        </div>
-        <div class="main__section--bar">
-            <i class="fa-solid fa-dash"></i> 
+            <hr>
         </div>
         <p>Web Developer - Graphics Artist - User Experience Designer</p>
         </section>
-        <section>
+        <section class="main__section__portfolio" id="portfolio">
             <h1>PORTFOLIO</h1>
-            <div>
-                <i class="fa-solid fa-horizontal-rule"></i>
+            <div class="main__section--star2">
+                <hr>
                 <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-horizontal-rule"></i>  
+                <hr>
             </div>
             <article>
                 <img src="/images/cabin.png" alt="house">
@@ -48,12 +56,12 @@
                 <img src="/images/submarine.png" alt="submarine">
             </article>
         </section>
-        <section>
+        <section class="main__section--about" id="about">
             <h1>ABOUT</h1>
-            <div>
-                <i class="fa-regular fa-horizontal-rule"></i>
+            <div class="main__section--star1">
+                <hr>
                 <i class="fa-solid fa-star"></i> 
-                <i class="fa-regular fa-horizontal-rule"></i>  
+                <hr>
             </div>
             <p>
                 Freelancer is a free landing page theme created for free use. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for a easy costumization.
@@ -62,18 +70,17 @@
                 Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to shere your projects, this template is the perfect starting point!
             </p>
             <button>
-                Download Now! <i class="fa-solid fa-download"></i>
+                <a href="">Download Now! <i class="fa-solid fa-download"></i></a>    
             </button>
-            <div>
-                <i class="fa-regular fa-horizontal-rule"></i>
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-regular fa-horizontal-rule"></i>  
-            </div>
-
         </section>
-    <footer>
-        <section>
+    <footer class="footer">
+        <section class=" footer__contactme" id="contact">
             <H1>CONTAC ME</H1>
+            <div class="main__section--star2">
+                <hr>
+                <i class="fa-solid fa-star"></i> 
+                <hr>
+            </div>
             <form action="resultado.html" method="POST">
                 <p>
                     <label for="nombre">Name</label>

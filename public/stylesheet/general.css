@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'lato';
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+ul ol{
+    padding: 0;
+}

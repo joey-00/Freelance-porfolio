@@ -1,4 +1,11 @@
-.header{
-    width: 100%;
+.header h2{
     background-color: var(--Azul);
+    font-family: var(--Titulos);
+    color: white;
+    margin-bottom:10px; 
+    font-weight: 800 ;
+}
+
+.header__nav{
+    display: none;
 }
