@@ -1,0 +1,12 @@
+.form__box{
+    margin-bottom: 20px;
+    color: var(--Azul);
+    padding: 5px;
+}
+.form__box input, .form__box textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid silver;
+    margin-top:10px ;
+
+}

@@ -12,7 +12,7 @@
     <header class="header">
         <a href=""><h3> freelance portfolio </h3></a>
         <div>
-            <button class="header__menu">
+            <button class="buttons__green">
                 menu <i class="fa-solid fa-bars"></i>
             </button>
         </div>
@@ -43,7 +43,7 @@
             <p>Web Developer - Graphics Artist - User Experience Designer</p>
         </section>
         <section class="main__section__portfolio" id="portfolio">
-            <h1>PORTFOLIO</h1>
+            <h2>PORTFOLIO</h2>
             <div class="main__section--star2">
                 <hr>
                 <h4><i class="fa-solid fa-star"></i></h4> 
@@ -58,7 +58,7 @@
                 <img src="/images/submarine.png" alt="submarine">
             </article>
         </section>
-        <section class="main__section--about" id="about">
+        <section class="main__section__about" id="about">
             <h2>ABOUT</h2>
             <div class="main__section--star1">
                 <hr>
@@ -71,47 +71,47 @@
             <p>
                 Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to shere your projects, this template is the perfect starting point!
             </p>
-            <button>
                 <a href="">Download Now! <i class="fa-solid fa-download"></i></a>    
-            </button>
+            
         </section>
     <footer class="footer">
-        <section class=" footer__contactme" id="contact">
-            <H2>CONTAC ME</H2>
+        <section class="footer__contactme" id="contact">
+            <H2>CONTACT ME</H2>
             <div class="main__section--star2">
                 <hr>
                 <h4><i class="fa-solid fa-star"></i></h4> 
                 <hr>
             </div>
-            <form action="resultado.html" method="POST">
-                <p>
-                    <label for="nombre">Name</label>
-                    <input type="text" name="nombre" id="nombre">
-                </p>
-                <p>
-                    <label for="nombre">Email Address</label>
-                    <input type="text" name="nombre" id="nombre">
-                </p>
-                <p>
-                    <label for="nombre">Phone Number</label>
-                    <input type="text" name="nombre" id="nombre">
-                </p>
-                <p>
-                    <label for="comentario">Message</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-                </p>
+            <form action="" method="">
+                <div class="form__box">
+                    <label for="name">Name</label>
+                    <input class="form-imput" type="text" autocomplete="off" id="name">
+                </div>
+                <div class="form__box">
+                    <label for="Email">Email Address</label>
+                    <input class="form-imput" type="email" autocomplete="off" id="email">
+                </div>
+                <div class="form__box">
+                    <label for="Phone">Phone Number</label>
+                    <input class="form-imput" type="text" autocomplete="off" id="Phone">
+                </div>
+                <div class="form__box">
+                    <label for="">Message</label>
+                    <textarea class="form-textarea" name="" id="message" rows="10"></textarea>
+                </div>
+                <div class="form__box--flex">
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                    <button class="buttons__green--mess">Send</button>
+                </div>
             </form>
-            <button>
-                <h3>Send</h3>
-            </button>
         </section>
-        <section>
+        <section class="footer__section--location">
             <h3>LOCATION</h3>
                 <p>
                     2215 john Daniel Drive Clark, MO 65243
                 </p>
             <h3>AROUND THE WEB</h3>
-            <nav>
+            <nav class="footer__section__nav">
                 <ul>
                     <li>
                       <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
@@ -133,6 +133,11 @@
             <h3>ABOUT FREELANCER</h3>
             <p>
                 Freelance is a free and open source landing page theme created to <a href="">your free personal use</a>.
+            </p>
+        </section>
+        <section class="footer__section__copi">
+            <p>
+               Copyright <i class="fa-regular fa-copyright"></i> Your Website 2018
             </p>
         </section>
     </footer>

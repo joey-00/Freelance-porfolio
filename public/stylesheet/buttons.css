@@ -1,0 +1,21 @@
+.buttons__green{
+    background-color:var(--Verde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 5px;
+    
+}
+.buttons__green--mess{
+    background-color: var(--Verde);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 16px 19px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px 12px 78px;
+}
