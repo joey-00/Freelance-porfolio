@@ -1,9 +1,23 @@
-.header h2{
+.header{
     background-color: var(--Azul);
+    padding: 15px 0px 10px 10px;
+}
+.header__menu{
+    background-color:var(--Verde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 5px;
+    
+}
+.header h3{
+    text-transform: uppercase;
     font-family: var(--Titulos);
     color: white;
-    margin-bottom:10px; 
-    font-weight: 800 ;
+    font-weight: 900;
 }
 
 .header__nav{
