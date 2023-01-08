@@ -65,10 +65,17 @@
     padding: 60px 15px 15px;
     font-size: 30px;
 }
-.main__sextion__article--img img{
-    width: 100%;
-    padding: 5px 10px;;
+.main__section__portfolio--img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
 }
+.main__section__portfolio--img figure{
+    width: 100%;
+    padding: 5px 10px;
+}
+
 .main__section__about{
     background-color: var(--Verde);
     color: white;
@@ -94,8 +101,20 @@
     border: 1px solid white;
     border-radius: 4px;
     padding: 15px;
-    display: inline-block;
+    display: flex;
     margin: 20px auto opx;
+    align-items: center;
+    justify-content: center;
+    
 }
+@media (min-width:768px){
+    .main__section__portfolio--img{
+        flex-direction: row;
+        justify-content: center;
 
+    }
+    .main__section__portfolio--img img{
+       width: 48%;
+    }
+}
 
